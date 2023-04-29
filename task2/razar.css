@@ -7,7 +7,7 @@ nav ul {
 
 nav ul li {
     padding: 30px;
-    text size: 10px;
+    size: 10px;
 }
 
 img {
@@ -21,17 +21,18 @@ img {
     display: flex;
 }
 
-.heading1 {
+
+/* .heading1 {
     position: relative;
     text-align: center;
     top: 100 px;
     left: 50px;
-    text color: white;
-}
+    color: white;
+} */
 
 h1 h3 h4 {
     text-align: center;
-    font color: white;
+    color: white;
 }
 
 .all img {
@@ -57,14 +58,19 @@ h1 h3 h4 {
     height: 100%;
 }
 
+ul {
+    list-style: none;
+}
+
 .center {
-    display: grid;
-    width: 50%;
-    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    width: 91%;
+    padding: 0;
 }
 
 .center img {
-    height: 100%;
+    position: relative;
 }
 
 .heading2 {
@@ -72,12 +78,38 @@ h1 h3 h4 {
     text-align: center;
     top: 10%;
     margin: -40;
-    text color: white;
 }
 
 .heading3 {
     position: relative;
     top: 20%;
     margin: -40;
-    text color: white;
+}
+
+.laptop {
+    position: relative;
+    justify-content: center;
+    display: flex;
+}
+
+.heading {
+    position: absolute;
+    color: #f8f8f8;
+}
+
+.clrWhite {
+    color: #ffffff;
+    position: absolute;
+}
+
+.ksh {
+    position: relative;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+}
+
+.two {
+    display: -webkit-inline-box;
+    width: 55%;
 }
